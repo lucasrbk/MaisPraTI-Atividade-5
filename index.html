@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="bg-gray-100 p-6" id="body"></body>
+    <div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+        <h1 class="text-2xl font-bold mb-4">Todo App</h1>
+        <button onclick="toggleMode()" id="toggleModeBtn" class="mt-4 w-full bg-gray-500 text-white p-2 rounded">Toggle Day/Night Mode</button>
+        <div class="mb-4">
+            <input id="taskInput" type="text" class="w-full p-2 border border-gray-300 rounded" placeholder="Add a new task">
+            <button onclick="addTaskBtn()" id="addTaskBtn" class="mt-2 w-full bg-blue-500 text-white p-2 rounded">Add Task</button>
+        </div>
+        <ul id="taskList" class="list-disc pl-5"></ul> 
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.toggleModeBtn{
+    position: right;
+    width: 20%;
+    bottom: 2em;
+}
+
+#addTaskBtn{
+    position: right;
+    width: 20%;
+    bottom: 2em;
+    color:white;
+}
